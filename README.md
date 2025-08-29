@@ -170,10 +170,10 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📬 Contact
 
-- **Developer**: [Your Name]
-- **Email**: [your.email@example.com]
-- **Portfolio**: [Your Portfolio Website]
-- **LinkedIn**: [Your LinkedIn Profile]
+- **Developer**: Aryan Agrawal
+- **Email**: aryanagrawal0102@gmail.com
+- **Portfolio**: https://react-portfolio-nine-black.vercel.app
+- **LinkedIn**: https://www.linkedin.com/in/aryan-aagrawal/
 
 ## 🔄 Future Enhancements
 

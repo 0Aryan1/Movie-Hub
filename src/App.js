@@ -7,6 +7,7 @@ import Trending from './pages/Trending/Trending';
 import Movies from './pages/Movies/Movies';
 import Series from './pages/Series/Series';
 import Search from './pages/Search/Search';
+import { SpeedInsights } from '@vercel/speed-insights/react';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
         </Container>
       </div>
       <SimpleBottomNavigation />
+    <SpeedInsights />
     </BrowserRouter>
   );
 }

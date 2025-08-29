@@ -31,7 +31,7 @@ useEffect(() => {
 
   return (
     <div>
-      <span className='pageTitle'>Movies</span>
+      <span className='pageTitle'>TV Series</span>
       <Genres
       type='tv'
       selectedGenres={selectedGenres}

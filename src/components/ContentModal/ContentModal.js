@@ -129,11 +129,11 @@ export default function ContentModal({ children, media_type, id }) {
 
                   <Button
                     variant="contained"
-  startIcon={<YouTubeIcon />}
-  color="secondary"
-  component={Link}
-  to={`/youtube/${video}`}   // 👈 this should be a route inside your app
-  sx={{ mt: 2 }}
+                    startIcon={<YouTubeIcon />}
+                    color="secondary"
+                    target= "_blank"
+                    href={`https://www.youtube.com/watch?v=${video}`}  // ✅ Correct string interpolation
+                    sx={{ mt: 2 }}
                   >
                     Watch the Trailer
                   </Button>

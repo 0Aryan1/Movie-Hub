@@ -7,6 +7,7 @@ import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
 import axios from "axios";
 import YouTubeIcon from "@mui/icons-material/YouTube";
+import { Link } from "react-router-dom";
 import {
   img_500,
   unavailable,
@@ -128,11 +129,11 @@ export default function ContentModal({ children, media_type, id }) {
 
                   <Button
                     variant="contained"
-                    startIcon={<YouTubeIcon />}
-                    color="secondary"
-                    // target="_blank"
-                    href={`https://www.youtube.com/watch?v=${video}`}
-                    sx={{ mt: 2 }}
+  startIcon={<YouTubeIcon />}
+  color="secondary"
+  component={Link}
+  to={`/youtube/${video}`}   // 👈 this should be a route inside your app
+  sx={{ mt: 2 }}
                   >
                     Watch the Trailer
                   </Button>

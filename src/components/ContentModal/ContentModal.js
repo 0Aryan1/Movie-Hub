@@ -130,7 +130,7 @@ export default function ContentModal({ children, media_type, id }) {
                     variant="contained"
                     startIcon={<YouTubeIcon />}
                     color="secondary"
-                    target="_blank"
+                    // target="_blank"
                     href={`https://www.youtube.com/watch?v=${video}`}
                     sx={{ mt: 2 }}
                   >
